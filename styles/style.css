@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 20%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.task {
+    margin-top: 20px;
+}
+
+.console-output {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    min-height: 100px;
+}
